@@ -1,0 +1,258 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+p {
+    font-size: 11.5px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+/*Page2-----------------------------------------*/
+
+/*header-----------------------------------------*/
+#header {
+    background-color: #b1c2ed;
+    margin: 0 0 50px 0;
+    
+}
+
+#header > div > h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0 0 0;
+}
+
+#header > div > h2 {
+    color: #17328f;
+    padding: 15px 0;
+}
+
+/*navigation-----------------------------------------*/
+#nav {
+    background-color: #9c6b6b;
+}
+
+#nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 15px 15px 0;
+
+}
+
+#nav > ul > li > a,
+#nav > ul > li > a:active,
+#nav > ul > li > a:visited,
+#nav > ul > li > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18.5px;
+    
+}
+
+#nav > ul > li > a:hover {
+    font-weight: bolder;
+    color: #410101;
+    text-decoration: underline;
+}
+
+/*article1 float-----------------------------------------*/
+#section1 {
+    background-color: #c4c4c4;
+    padding: 25px;
+    float: left;
+    width: 70%;
+    height: 440px;
+    margin: 20px 0.5% 20px 0;
+}
+/*article1 -----------------------------------------*/
+#section1 > header > h2 {
+    text-transform: uppercase;
+}
+
+#section1 > header > h4 {
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+#article1 > p {
+    padding: 5px 0px;
+}
+
+#suite {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+/*section1 & aside marges-----------------------------------------*/
+
+
+/*aside float-----------------------------------------*/
+#aside {
+    float: right;
+    width: 24%;
+    margin: 20px 0 20px 0.5%;
+}
+/*aside--------------------------------------------*/
+#text-ul {
+    background-color: #b96767;
+    padding: 15px;
+    height: 401px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#text-ul > li > ul {
+    padding: 0 0 0 20px;
+}
+
+#text-ul > li > ul > li > ul {
+    padding: 0 0 0 30px;
+    
+}
+
+#text-ul > ul, li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#aside > h3 {
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+/*section3-----------------------------------------*/
+#section3 {
+    clear: both;
+}
+
+#gauche, #centre, #droite {
+    background-color: #c4c4c4;
+}
+
+#gauche {
+    float: left;
+    width: 25%;
+    margin-right: 1%;
+}
+
+#centre {
+    float: left;
+    width: 45%;
+    padding: 15px;
+}
+
+#droite {
+    float: left;
+    width: 25%;
+    margin-left: 1%;
+}
+
+#gauche, #droite {
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+#centre > h4 {
+    text-align: center;
+    padding: 0 0 10px;
+}
+
+
+/*PAGE 2-----------------------------------------*/
+.header-article-pikachu > h2, p {
+    display: inline-block;
+}
+
+.header-article-pikachu > h4  {
+    padding: 0 0 15px 0;
+}
+
+.statistique > ul > li {
+    padding: 0px;
+    font-size: 11.5px;
+    color: #000000;
+}
+
+.article-pikachu {
+    background-color: #c4c4c4;
+    padding: 25px;
+    float: right;
+    width: 66%;
+    min-height: 270px;
+}
+
+.image-pikachu {
+    float: left;
+}
+
+.article-pikachu, .image-pikachu {
+    margin: 30px 0px;
+}
+
+.article-pikachu > article > p {
+    padding: 10px 0 5px 0;
+ 
+}
+
+.clearfix {
+    clear: both;
+}
+
+.bold {
+    font-weight: bold;
+}
+/*footer-----------------------------------------*/
+#page-footer {
+    background-color: #898989;
+    clear: both;
+    width: 100%;
+    background-attachment: scroll;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#page-footer > div > h4 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+
+}
